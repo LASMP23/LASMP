@@ -10,6 +10,6 @@ details.
 ## Sample efficient path planner
 details about the planner.
 
-## Simulation Reaults
+## Simulation Results
 
 ## Experimental Results
