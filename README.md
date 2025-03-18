@@ -1,4 +1,7 @@
-# LASMP highlights
+# LASMP Language Aided Subset Sampling Based Motion Planner 
+(Paper under review CASE 2025)
+
+## LASMP highlights
 ### The workflow diagram of LASMP
 ![Workflow](Figures/workflow.png)
 
