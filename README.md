@@ -20,7 +20,7 @@ A few instances from the assembled dataset utilized for training the language mo
 | Example Texts                                   | Annotation                |
 | ----------------------------------------------  | ------------------------- |  
 |You can go right first and then take left turn.  | 8,16,"RIGHT",32,46,"LEFT" |
-|Move forward to the music room                   | 20, 30, "Zone"            | 
+|Move forward to the music room                   | 20, 30, "ZONE"            | 
 
 ## Sample efficient path planner
 details about the planner.
