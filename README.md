@@ -4,7 +4,6 @@
 ## LASMP highlights
 ### The workflow diagram of LASMP
 ![Workflow](Figures/workflow.png)
-
 There are two key modules in LASMP
 - Custom NER model
 - Sample efficient path planner
