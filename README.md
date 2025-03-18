@@ -5,7 +5,7 @@ There are two key modules in LASMP
 - Sample efficient path planner
 
 ## Custom NER Model
-details.
+![Workflow](Figures/workflow.png)
 
 ## Sample efficient path planner
 details about the planner.
