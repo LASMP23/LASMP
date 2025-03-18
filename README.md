@@ -13,6 +13,15 @@ We used NER model to extract navigational entities, such as left, right, etc., a
 
 We trained our NER pipeline using different language models with the help of the spaCy framework and conducted a comparative study between the models. After analyzing the performance metrics of each model, we found that RoBERTa performed the best on our custom dataset. Therefore, we chose RoBERTa for the LASMP framework.
 
+### Dataset Preparation:
+
+A few instances from the assembled dataset utilized for training the language model: the second column shows the input texts while the custom labels are located in the third column. The labels in this case are a tuple with three elements, the start and end indices of the target entities and the third element is the entity’s name.
+
+| Example Texts                                   | Annotation                |
+| ----------------------------------------------  | ------------------------- |  
+|You can go right first and then take left turn.  | 8,16,"RIGHT",32,46,"LEFT" |
+|Move forward to the music room                   | 20, 30, "Zone"            | 
+
 ## Sample efficient path planner
 details about the planner.
 
