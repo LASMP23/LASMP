@@ -26,7 +26,7 @@ A few instances from the assembled dataset utilized for training the language mo
 |Move forward to the music room                   | 20, 30, "ZONE"            | 
 
 ## Sample efficient path planner
-details about the planner.
+![SubsetGeneration](Figures/keyconcept.gif)
 
 ## Simulation Results
 
