@@ -16,6 +16,7 @@ We used NER model to extract navigational entities, such as left, right, etc., a
 We trained our NER pipeline using different language models with the help of the spaCy framework and conducted a comparative study between the models. After analyzing the performance metrics of each model, we found that RoBERTa performed the best on our custom dataset. Therefore, we chose RoBERTa for the LASMP framework.
 
 ### Dataset Preparation:
+The dataset was generated synthetically and it is ensured that the dataset features both abstract prompts (e.g., ”Move to [A/B] locaiton”) and complex prompts (e.g., ”Take a [left/right] turn, then turn [left/right] to reach the goal”). While creating the dataset, we ensured a fair distribution of data diversity between the abstract and complex navigation instructions.
 
 A few instances from the assembled dataset utilized for training the language model: the second column shows the input texts while the custom labels are located in the third column. The labels in this case are a tuple with three elements, the start and end indices of the target entities and the third element is the entity’s name.
 
@@ -27,6 +28,15 @@ A few instances from the assembled dataset utilized for training the language mo
 ## Sample efficient path planner
 ![SubsetGeneration](Figures/keyconcept.gif)
 
+## NER Results:
+Performance evaluation of the language models.
+| Language Models |  Precision |Recall| F Score|
+| --------------- | ---------- |-------|--------| 
+|    RoBerta      |  0.883     | 0.903 |  0.893 |
+|    BERT         |  0.842     | 0.868 |  0.855 |
+|  en core web lg |  0.845     | 0.851 |  0.848 | 
+
 ## Simulation Results
+
 
 ## Experimental Results
