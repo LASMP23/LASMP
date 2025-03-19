@@ -37,6 +37,6 @@ Performance evaluation of the language models.
 |  en core web lg |  0.845     | 0.851 |  0.848 | 
 
 ## Simulation Results
-
+![OfficeSpace](Figures/officespace.gif)
 
 ## Experimental Results
