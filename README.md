@@ -1,5 +1,5 @@
 # LASMP: Language Aided Subset Sampling Based Motion Planner 
-(Paper under review CASE 2025)
+(Accepted - CASE 2025)
 
 ## LASMP highlights
 ### The workflow diagram of LASMP
